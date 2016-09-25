@@ -1,0 +1,13 @@
+Source: liblock
+Section: devel
+Priority: extra
+Maintainer: gozfree <gozfree@163.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 1.0.0
+Homepage: https://github.com/gozfree/liblock.git
+
+Package: liblock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Lock library
+ A simple lock library.
